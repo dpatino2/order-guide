@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order Guide</title>
+
+    <!-- jQuery -->
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- BOOTSTRAP Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- BOOTSTRAP Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- theme -->
+    <link rel="stylesheet" href="css/custom.css"/>
+
+  </head>
+  <body>
+<!-- navbar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-build-top" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Brand</a> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="navbar-build-top">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Site Search</a></li>
+            <li><a href="#">Language</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <nav class="navbar navbar-default" id="navbar-build-bottom">
+      <div class=".container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Industries</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Support & Services</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+<!-- navbar (end) -->
+
+    <div class="container container-fluid">
+      <div class="row row-options">
+        <div class="col-md-5">
+
+          <h2>Find by Part Number</h2>
+          <div id="part-num-box">
+            <div class="input-group input-group-lg">
+
+              <input id="part-num-input"
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a Part Number"/>
+
+              <div class="input-group-btn" id="part-num-btn">
+                <button class="btn btn-default" type="button">Review</button>
+              </div>
+
+            </div>
+
+            <div class="part-num-hint-link">
+              How do I <a href="#"> find my part number?</a>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div class="col-md-2">
+          <div class="option-or">OR</div>
+        </div>
+        <div class="col-md-5">
+          <h2>Build New Credential</h2>
+          <div id="build-creds-icon">
+            <a href="#">
+              <img src="img/cred.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

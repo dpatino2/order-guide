@@ -1,0 +1,114 @@
+
+/* =================
+0. Common
+1. Product Family Build
+2. Options
+=====================*/
+
+
+/* === 0. Common === */
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+/* === 0. Common (end) === */
+
+
+/* === 1. Product Family Build === */
+.navbar, .navbar-inverse {
+  border-radius: 0px;
+}
+.navbar-inverse {
+  margin-bottom: 0px;
+  background-color: rgba(0,46,86,0.95);
+  background-image: none;
+}
+.navbar ul li a {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+}
+#navbar-build-top ul li a {
+  color: white;
+}
+#navbar-build-top ul li:hover {
+  background-color: white;
+}
+#navbar-build-top ul li a:hover {
+  color: black;
+}
+#navbar-build-bottom {
+  min-height: 75px;
+}
+#navbar-build-bottom li {
+  padding-left:15px ;
+  padding-right:15px ;
+}
+#navbar-build-bottom li:hover {
+  border-top-width: thick;
+  border-top-color: orange;
+  border-top-style: solid;
+}
+#navbar-build-bottom li a {
+  padding-top: 25px;
+  color: rgba(0,46,86,0.95);
+}
+#build-header {
+  margin-top: 60px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.build-label {
+  padding-top: 50px;
+  font-size: 24px;
+  color: grey;
+}
+.build-icon {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+}
+.build-icon {
+  transition: padding-top .5s;
+}
+.build-icon:hover {
+  padding-top: 25px;
+  background-color: lightgrey;
+}
+/* === 1. Product Family Build (end) === */
+
+
+/* === 2. Options === */
+.row-options {
+  padding-top: 100px;
+}
+.option-or {
+  color: grey;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 120px;
+  margin-left: 40%;
+}
+#part-num-box {
+  height: 160px;
+  background-color: lightgrey;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.input-group-lg {
+  top: 35%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#build-creds-icon {
+  transition: padding-top .5s;
+}
+#build-creds-icon:hover {
+  padding-top: 10px;
+}
+.part-num-hint-link{
+  margin-top: 13%;
+  margin-left: 50%;
+}
+/* === 2. Options (end) === */
