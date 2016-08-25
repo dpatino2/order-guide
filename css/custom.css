@@ -3,6 +3,7 @@
 0. Common
 1. Product Family Build
 2. Options
+3. Style/Tech
 =====================*/
 
 
@@ -96,7 +97,7 @@ h2 {
   margin-top: 20px;
   border-radius: 10px;
 }
-.input-group-lg {
+#part-num-group {
   top: 35%;
   padding-left: 5%;
   padding-right: 5%;
@@ -112,3 +113,18 @@ h2 {
   margin-left: 50%;
 }
 /* === 2. Options (end) === */
+
+/* === 3. Style/Tech === */
+.container-bkgrnd {
+  background-color: #eaeaea;
+}
+.style-opt .row {
+  background-color: white;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.style-opt .row:hover {
+  margin-top:20px;
+}
+/* === 3. Style/Tech (end) === */
